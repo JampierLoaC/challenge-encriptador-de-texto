@@ -1,0 +1,129 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.container {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+}
+
+.formulario {
+    text-align: center;
+}
+
+#inputText {
+    color: #0A3871;
+    width: 577px;
+    height: 48px;
+    font-size: 32px;
+    margin-top: 68px;
+    margin-left: 240px;
+    font-weight: 400;
+}
+
+#outputText {
+    color: #0A3871;
+    width: 577px;
+    height: 400px;
+    font-size: 32px;
+    margin-top: 68px;
+    margin-left: 240px;
+    font-weight: 400;
+}
+
+.imagen-error {
+    width: 50%;
+    height: 600px;
+    margin-top: 40px;
+    margin-left: 5px;
+    padding: 20px;
+    border-radius: 32px;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    width: 336px;
+    height: 304px;
+    margin-top: 50%;
+    max-width: 300px;
+    margin-bottom: 20px;
+}
+
+#error-message {
+    width: 336px;
+    height: 58px;
+    font: inherit;
+    font-weight: 700;
+    font-size: 24px;
+    gap: 16px;
+    color: #343A40;
+    text-align: center;
+}
+
+#error-mess {
+    width: 336px;
+    height: 58px;
+    font: inherit;
+    font-weight: 400;
+    font-size: 16px;
+    gap: 16px;
+    color: #495057;
+    text-align: center;
+}
+
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    resize: none;
+    margin-bottom: 15px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 24px;
+    padding: 20px;
+    margin-left: 240px;
+
+}
+
+#encriptarBtn {
+    background-color: #0A3871;
+    color: #D8DFE8;
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    padding: 24px;
+    gap: 8px;
+    font-size: 16px;
+    font-weight:400;
+}
+
+#desencriptarBtn {
+    background-color: #D8DFE8;
+    color: #0A3871;
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    padding: 24px;
+    gap: 8px;
+    font-size: 16px;
+    font-weight:400;
+}
+
+.buttons button:hover {
+    background-color: #45a049;
+}

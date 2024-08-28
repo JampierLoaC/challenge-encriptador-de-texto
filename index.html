@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador/Desencriptador</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="formulario">
+            <textarea id="inputText" placeholder="Ingresa tu texto aquí..."></textarea>
+            <div class="buttons">
+                <button id="encriptarBtn">Encriptar</button>
+                <button id="desencriptarBtn">Desencriptar</button>
+            </div>
+            <textarea id="outputText" readonly placeholder="Texto encriptado/desencriptado..."></textarea>
+
+        </div>
+        <div class="imagen-error">
+            <img src="encrip.jpg" alt="Imagen ilustrativa">
+            <p id="error-message">Ningún mensaje fue encontrado</p>
+            <p id="error-mess">Ingresa el texto que desees encriptar o desencriptar.</p>
+        </div>
+    </div>
+    <script src="funciones.js"></script>
+</body>
+
+</html>
